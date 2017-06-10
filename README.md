@@ -216,5 +216,13 @@ android {
 
 Where `"10.0.+"` is best set to the same value as the version on [this line](https://github.com/EddyVerbruggen/nativescript-plugin-firebase/blob/master/platforms/android/include.gradle#L23).
 
+#### Totaljava.io.IOException: File already exists.
+ 
+ ```
+ tns platform remove android
+ tns platform add android
+ tns run android
+ ```
+
 ## Credits
 The starting point for this plugin was [this great Gist](https://gist.github.com/jbristowe/c89a7bcae7fc9a035ee7) by [John Bristowe](https://github.com/jbristowe).
